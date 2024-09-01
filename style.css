@@ -1,0 +1,206 @@
+/* ESTILO GERAL */
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.08);
+}
+
+.btn-menu button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-menu button:hover{
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.08);
+}
+
+
+/* ESTILO DO CABECALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #525151;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.08);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display:inline-block;
+    padding: 0 40px;
+}
+
+
+/* ESTILO SOBRE */
+section .sobre{
+    padding: 80px 4%;
+}
+
+section .sobre .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.sobre .txt-sobre h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.sobre .txt-sobre p{
+    color: #fff;
+    margin: 40px 0;
+    font-size: 22px;
+}
+
+
+/* ESTILO FORMACAO */
+section .formacao{
+    padding: 80px 4%;
+}
+
+section .formacao .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.formacao .txt-formacao h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.formacao .txt-formacao p{
+    color: #fff;
+    margin: 40px 0;
+    font-size: 22px;
+    line-height: 2px;
+}
+
+
+/* ESTILO PORTFOLIO */
+section .portfolio{
+    padding: 80px 4%;
+}
+
+section .portfolio .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.portfolio .txt-portfolio h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.portfolio .txt-portfolio p{
+    color: #fff;
+    margin: 40px 0;
+    font-size: 22px;
+    line-height: 2px;
+}
+
+
+/* ESTILO CONTATO */
+section .contato{
+    padding: 80px 4%;
+}
+
+section .contato .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.contato .txt-contato h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #4d4c4c3d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form div .btn-enviar{
+    margin-top: 10px;
+}
+
